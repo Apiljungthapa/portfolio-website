@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apil - AI & ML Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Canvas Backgrounds -->
+  <canvas id="space-background"></canvas>
+  <canvas id="cosmic-nebula"></canvas>
+  
+  <!-- Background Effects -->
+  <div class="bg-effects">
+    <div class="purple-glow"></div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="logo">Apil</div>
+      <nav>
+        <a href="#about" class="nav-link">About me</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+      </nav>
+      <div class="social-icons">
+        <a href="https://github.com/Apiljungthapa" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/apil-thapa-3114a3255/" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+       
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="about" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Innovating with <span class="text-blue">ML</span> & Gen<span class="text-light-blue">AI</span></h1>
+        <h1 class="intro-heading">Hi, I'm <span class="highlight">Apil</span></h1>
+       <p class="intro-text">
+        A passionate <span class="highlight">AI Researcher & Developer</span> specializing in
+        <span class="skill-tag">Deep Learning, </span> 
+        <span class="skill-tag">Natural Language Processing</span> 
+        <span class="skill-tag"> & Generative AI</span>
+      </p>
+      <p class="mission-text">
+        I build intelligent systems that bridge cutting-edge technology with 
+        <span class="underline">real-world impact</span>.
+      </p>
+        <p>
+          Check out my diverse <span class="text-purple">projects</span> and 
+          <span class="text-purple">skills</span>, where I bring ideas to life and strive for excellence in 
+          every endeavor.
+        </p>
+        
+        <div class="download-cv-container">
+          <a href="resume/Apil_Thapa_CV.pdf" download class="download-cv-btn">
+            <i class="fas fa-download"></i> Download CV
+          </a>
+        </div>
+      </div>
+
+      <div class="tech-orbit">
+        <!-- JavaScript Badge -->
+        <div class="tech-icon" style="top: 10%; left: 50%;">
+          <div class="tech-badge" style="background-color: #f7df1e;">
+            <span class="tech-text" style="color: #000000;">JS</span>
+          </div>
+        </div>
+        
+        <!-- TypeScript Badge -->
+        <div class="tech-icon" style="top: 30%; left: 70%;">
+          <div class="tech-badge" style="background-color: #3178c6;">
+            <span class="tech-text" style="color: #ffffff;">TS</span>
+          </div>
+        </div>
+        
+        <!-- React Badge -->
+        <div class="tech-icon" style="top: 50%; left: 30%;">
+          <div class="tech-badge" style="background-color: #282c34;">
+            <svg class="tech-logo" viewBox="-11.5 -10.23174 23 20.46348">
+              <circle cx="0" cy="0" r="2.05" fill="#61dafb"/>
+              <g stroke="#61dafb" stroke-width="1" fill="none">
+                <ellipse rx="11" ry="4.2"/>
+                <ellipse rx="11" ry="4.2" transform="rotate(60)"/>
+                <ellipse rx="11" ry="4.2" transform="rotate(120)"/>
+              </g>
+            </svg>
+          </div>
+        </div>
+        
+        <!-- AWS Badge -->
+        <div class="tech-icon" style="top: 70%; left: 60%;">
+          <div class="tech-badge" style="background-color: #232f3e;">
+            <svg class="tech-logo" viewBox="0 0 24 24" width="40" height="40">
+              <path fill="#FF9900" d="M6.763 10.036c0 .296.032.535.088.71.064.176.144.368.256.576.04.063.056.127.056.183 0 .08-.048.16-.152.24l-.503.335a.383.383 0 0 1-.208.072c-.08 0-.16-.04-.239-.112a2.47 2.47 0 0 1-.287-.375 6.18 6.18 0 0 1-.248-.471c-.622.734-1.405 1.101-2.347 1.101-.67 0-1.205-.191-1.596-.574-.391-.384-.59-.894-.59-1.533 0-.678.239-1.23.726-1.644.487-.415 1.133-.623 1.955-.623.272 0 .551.024.846.064.296.04.6.104.918.176v-.583c0-.607-.127-1.03-.375-1.277-.255-.248-.67-.367-1.235-.367-.264 0-.535.033-.815.096-.28.064-.567.152-.87.271-.128.056-.224.072-.28.072-.088 0-.167-.071-.231-.215a.97.97 0 0 1-.088-.335c0-.13.04-.232.111-.319a1.19 1.19 0 0 1 .32-.223 4.79 4.79 0 0 1 1.036-.343 5.04 5.04 0 0 1 1.068-.111c.8 0 1.39.183 1.765.543.375.367.558 1.015.558 1.941v2.554zm-3.347-.895c0 .287.054.51.158.679.112.176.28.255.503.255a.93.93 0 0 0 .488-.143c.167-.095.287-.223.375-.375.096-.16.16-.32.184-.471.031-.144.055-.294.071-.455v-.331a5.72 5.72 0 0 0-.775-.1 2.64 2.64 0 0 0-.622.024c-.199.04-.367.111-.503.216-.128.104-.191.263-.191.487v.016zm9.034 2.489a.56.56 0 0 1-.319.104c-.128 0-.24-.048-.343-.137-.096-.096-.176-.239-.24-.43l-2.318-7.614c-.032-.111-.048-.183-.048-.223 0-.08.048-.16.152-.223l.623-.224a.4.4 0 0 1 .151-.032c.128 0 .208.071.248.223l1.661 6.082 1.533-6.082c.04-.152.128-.223.271-.223a.35.35 0 0 1 .152.032l.599.223c.104.072.152.151.152.223 0 .04-.016.112-.048.224L12.45 11.63zm4.774-3.054H15.8c-.104 0-.183-.031-.223-.095-.04-.064-.071-.151-.071-.256v-.623c0-.112.031-.199.071-.255.048-.064.127-.096.223-.096h4.847v-.886H15.8c-.104 0-.183-.032-.223-.096-.04-.064-.071-.151-.071-.255v-.623c0-.112.031-.199.071-.256.048-.064.127-.095.223-.095h4.847v-.71c0-.104.039-.176.104-.224a.6.6 0 0 1 .28-.071h.815c.111 0 .199.023.255.071.064.048.096.12.096.224v.71h.935c.111 0 .191.031.239.095.048.057.08.144.08.256v.623c0 .112-.032.199-.08.256-.048.064-.128.095-.239.095h-.935v.886h.935c.111 0 .191.032.239.096.048.056.08.143.08.255v.623c0 .112-.032.199-.08.256-.048.064-.128.095-.239.095h-.935v2.25c0 .112-.032.184-.096.232a.5.5 0 0 1-.256.071h-.815a.5.5 0 0 1-.255-.071c-.064-.048-.104-.12-.104-.232v-2.25z"/>
+            </svg>
+          </div>
+        </div>
+        
+        <!-- GitHub Badge -->
+        <div class="tech-icon" style="top: 40%; left: 50%;">
+          <div class="tech-badge" style="background-color: #171515;">
+            <svg class="tech-logo" viewBox="0 0 24 24" width="40" height="40">
+              <path fill="#ffffff" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+            </svg>
+          </div>
+        </div>
+        
+        <!-- Orbit Grid Animation -->
+        <svg class="orbit-grid" viewBox="0 0 100 100">
+          <g fill="none" stroke="rgba(80, 200, 255, 0.15)" stroke-width="0.3">
+            <circle cx="50" cy="50" r="40" />
+            <circle cx="50" cy="50" r="30" />
+            <circle cx="50" cy="50" r="20" />
+            <line x1="0" y1="50" x2="100" y2="50"></line>
+            <line x1="50" y1="0" x2="50" y2="100"></line>
+            <line x1="15" y1="15" x2="85" y2="85"></line>
+            <line x1="15" y1="85" x2="85" y2="15"></line>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Stack Section -->
+
+  <section id="skills" class="tech-stack">
+  <div class="container">
+    <h2 class="section-title">My <span class="gradient-text">Tech Stack</span></h2>
+    <p class="section-subtitle">Tools that power my cosmic creations</p>
+    
+    <div class="compact-skills-grid">
+      <!-- Programming Languages -->
+      <div class="skill-category">
+        <div class="category-header">
+          <i class="fas fa-code category-icon"></i>
+          <h3>Languages</h3>
+        </div>
+        <div class="skill-items">
+          <span class="skill-pill">Python</span>
+          <span class="skill-pill">Java</span>
+          <span class="skill-pill">JavaScript</span>
+        </div>
+      </div>
+      
+      <!-- Web & Design -->
+      <div class="skill-category">
+        <div class="category-header">
+          <i class="fas fa-paint-brush category-icon"></i>
+          <h3>Web & Design</h3>
+        </div>
+        <div class="skill-items">
+          <span class="skill-pill">HTML5</span>
+          <span class="skill-pill">CSS3</span>
+          <span class="skill-pill">Bootstrap</span>
+          <span class="skill-pill">Figma</span>
+          <span class="skill-pill">Photoshop</span>
+        </div>
+      </div>
+      
+      <!-- Frameworks -->
+      <div class="skill-category">
+        <div class="category-header">
+          <i class="fas fa-cubes category-icon"></i>
+          <h3>Frameworks</h3>
+        </div>
+        <div class="skill-items">
+          <span class="skill-pill">Django</span>
+          <span class="skill-pill">Flask</span>
+          <span class="skill-pill">FastAPI</span>
+          <span class="skill-pill">Streamlit</span>
+          <span class="skill-pill">J2EE</span>
+        </div>
+      </div>
+      
+      <!-- Databases -->
+      <div class="skill-category">
+        <div class="category-header">
+          <i class="fas fa-database category-icon"></i>
+          <h3>Databases</h3>
+        </div>
+        <div class="skill-items">
+          <span class="skill-pill">MySQL</span>
+          <span class="skill-pill">Oracle SQL</span>
+          <span class="skill-pill">SQLite</span>
+        </div>
+      </div>
+      
+      <!-- Machine Learning -->
+      <div class="skill-category">
+        <div class="category-header">
+          <i class="fas fa-brain category-icon"></i>
+          <h3>AI/ML</h3>
+        </div>
+        <div class="skill-items">
+          <span class="skill-pill">TensorFlow</span>
+          <span class="skill-pill">PyTorch</span>
+          <span class="skill-pill">LLMs</span>
+          <span class="skill-pill">LangChain</span>
+          <span class="skill-pill">Scikit-learn</span>
+        </div>
+      </div>
+      
+      <!-- Data Science -->
+      <div class="skill-category">
+        <div class="category-header">
+          <i class="fas fa-chart-line category-icon"></i>
+          <h3>Data Science</h3>
+        </div>
+        <div class="skill-items">
+          <span class="skill-pill">Pandas</span>
+          <span class="skill-pill">NumPy</span>
+          <span class="skill-pill">Matplotlib</span>
+          <span class="skill-pill">Seaborn</span>
+        </div>
+      </div>
+      
+      <!-- Computer Vision -->
+      <div class="skill-category">
+        <div class="category-header">
+          <i class="fas fa-eye category-icon"></i>
+          <h3>Vision</h3>
+        </div>
+        <div class="skill-items">
+          <span class="skill-pill">OpenCV</span>
+          <span class="skill-pill">YOLO</span>
+          <span class="skill-pill">MediaPipe</span>
+        </div>
+      </div>
+      
+      <!-- NLP -->
+      <div class="skill-category">
+        <div class="category-header">
+          <i class="fas fa-language category-icon"></i>
+          <h3>NLP</h3>
+        </div>
+        <div class="skill-items">
+          <span class="skill-pill">Transformers</span>
+          <span class="skill-pill">NLTK</span>
+          <span class="skill-pill">spaCy</span>
+          <span class="skill-pill">Ollama</span>
+          <span class="skill-pill">Groq</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Projects Section -->
+  <!-- Projects Section -->
+<section id="projects" class="projects">
+  <div class="container">
+    <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+    <p class="section-subtitle">Where AI meets real-world solutions</p>
+    
+    <div class="project-grid">
+      <!-- Project 1 - Bank Chatbot System -->
+      <div class="project-card">
+        <div class="project-image">
+          <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Bank Chatbot System">
+          <div class="tech-tags">
+            <span>LangGraph</span>
+            <span>FastAPI</span>
+            <span>RAG</span>
+            <span>GROQ</span>
+          </div>
+        </div>
+        <div class="project-content">
+          <h3>Bank Chatbot Systems</h3>
+          <p class="project-description">
+            Developed AI-powered banking assistants for Muktinath and Sanima Banks featuring:
+          </p>
+          <ul class="project-features">
+            <li>Real-time financial data integration</li>
+            <li>Multi-document RAG architecture</li>
+            <li>Transaction processing workflows</li>
+            <li>Manager approval systems</li>
+          </ul>
+         
+        </div>
+      </div>
+
+      <!-- Project 2 - WorkSphere -->
+      <div class="project-card">
+        <div class="project-image">
+          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="WorkSphere Employee Management">
+          <div class="tech-tags">
+            <span>WebSockets</span>
+            <span>YOLOv8</span>
+            <span>LLMs</span>
+            <span>OpenCV</span>
+          </div>
+        </div>
+        <div class="project-content">
+          <h3>WorkSphere EMS</h3>
+          <p class="project-description">
+            Comprehensive employee management platform with AI capabilities:
+          </p>
+          <ul class="project-features">
+            <li>Anti-spoofing facial recognition attendance</li>
+            <li>Real-time task management system</li>
+            <li>Sentiment analysis on feedback</li>
+            <li>Document Q&A with LLMs</li>
+          </ul>
+          
+        </div>
+      </div>
+
+      <!-- Project 3 - Multimodal Emotion AI -->
+      <div class="project-card">
+        <div class="project-image">
+          <img src="https://images.unsplash.com/photo-1629904853893-c2c8981a1dc5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Multimodal Emotion Recognition">
+          <div class="tech-tags">
+            <span>Wav2Vec2</span>
+            <span>DistilBERT</span>
+            <span>ViT</span>
+            <span>PyTorch</span>
+          </div>
+        </div>
+        <div class="project-content">
+          <h3>Multimodal Emotion AI</h3>
+          <p class="project-description">
+            Unified emotion recognition system analyzing:
+          </p>
+          <ul class="project-features">
+            <li>Speech patterns (Wav2Vec2)</li>
+            <li>Text sentiment (DistilBERT)</li>
+            <li>Facial expressions (Vision Transformers)</li>
+            <li>Probabilistic fusion model</li>
+          </ul>
+         
+        </div>
+      </div>
+
+      <!-- Project 4 - Retail AI Suite -->
+      <div class="project-card">
+        <div class="project-image">
+          <img src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Retail AI Solutions">
+          <div class="tech-tags">
+            <span>LLAMA2</span>
+            <span>QLORA</span>
+            <span>LangChain</span>
+            <span>Stable Diffusion</span>
+          </div>
+        </div>
+        <div class="project-content">
+          <h3>Retail AI Suite</h3>
+          <p class="project-description">
+            Comprehensive solutions for clothing brands:
+          </p>
+          <ul class="project-features">
+            <li>Fine-tuned LLAMA2/MISTRAL models</li>
+            <li>QLORA quantization for CPU inference</li>
+            <li>Product image generation (Stable Diffusion)</li>
+            <li>Automated customer profiling</li>
+          </ul>
+         
+        </div>
+      </div>
+
+      <!-- Project 5 - Smart Drowsiness Detection -->
+      <div class="project-card">
+        <div class="project-image">
+          <img src="https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Drowsiness Detection">
+          <div class="tech-tags">
+            <span>YOLOv8</span>
+            <span>OpenCV</span>
+            <span>Roboflow</span>
+            <span>Custom Dataset</span>
+          </div>
+        </div>
+        <div class="project-content">
+          <h3>Smart Drowsiness Detection</h3>
+          <p class="project-description">
+            Real-time driver safety system:
+          </p>
+          <ul class="project-features">
+            <li>Custom-trained YOLOv8 model</li>
+            <li>500+ annotated image dataset</li>
+            <li>95% detection accuracy</li>
+            <li>Alert escalation system</li>
+          </ul>
+         
+        </div>
+      </div>
+
+      <!-- Project 6 - Cold Outreach Automation -->
+      <div class="project-card">
+        <div class="project-image">
+          <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Cold Outreach Automation">
+          <div class="tech-tags">
+            <span>GROQ</span>
+            <span>LangChain</span>
+            <span>Web Scraping</span>
+            <span>Streamlit</span>
+          </div>
+        </div>
+        <div class="project-content">
+          <h3>Cold Outreach Automation</h3>
+          <p class="project-description">
+            AI-powered lead generation system:
+          </p>
+          <ul class="project-features">
+            <li>Automated email personalization</li>
+            <li>Google Maps lead extraction</li>
+            <li>Sentiment-based outreach strategy</li>
+            <li>Response tracking dashboard</li>
+          </ul>
+        
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image">
+          <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Byte Bazaar E-commerce Website">
+          <div class="tech-tags">
+            <span>Java JEE</span>
+            <span>JSP</span>
+            <span>Servlets</span>
+            <span>MySQL</span>
+          </div>
+        </div>
+        <div class="project-content">
+          <h3>Byte Bazaar (E-commerce Website)</h3>
+          <p class="project-description">
+            Full-featured gadget e-commerce platform:
+          </p>
+          <ul class="project-features">
+            <li>Implemented user authentication system</li>
+            <li>Built product catalog and shopping cart functionality</li>
+            <li>Developed admin dashboard for inventory management</li>
+            <li>Integrated secure payment processing</li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- NEW Project - Quiz App with LangChain -->
+      <div class="project-card">
+        <div class="project-image">
+          <img src="https://images.unsplash.com/photo-1606326608690-4e0281b1e588?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Quiz App with LangChain">
+          <div class="tech-tags">
+            <span>LangChain</span>
+            <span>Python</span>
+            <span>AI/ML</span>
+            <span>React</span>
+          </div>
+        </div>
+        <div class="project-content">
+          <h3>AI-Powered Quiz Application</h3>
+          <p class="project-description">
+            Interactive quiz platform built with LangChain:
+          </p>
+          <ul class="project-features">
+            <li>Dynamic question generation using LLMs</li>
+            <li>Adaptive difficulty based on user performance</li>
+            <li>Topic-based quiz categorization</li>
+            <li>Performance analytics dashboard</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-column">
+          <h3>Community</h3>
+          <ul>
+            <li>
+              <a href="https://github.com/Apiljungthapa">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+            </li>
+           
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Social Media</h3>
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/apil-thapa-3114a3255/">
+                <i class="fab fa-linkedin"></i> LinkedIn
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Contact Me</h3>
+          <a href="apilthapa87@gmail.com">
+            <i class="fas fa-envelope"></i> apilthapa87@gmail.com
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> Apil. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="space-background.js"></script>
+  <script src="cosmic-nebulla.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
